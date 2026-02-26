@@ -32,7 +32,7 @@ function Asidebar() {
             key={to}
             to={to}
             className={({ isActive }) =>
-              `relative group flex items-center  gap-3 px-3 md:px-4 py-2.5 md:py-3 rounded-lg md:rounded-xl transition-all duration-200 text-xs md:text-sm lg:text-base font-medium  md:w-full  ${
+              `relative group flex items-center  gap-3  px-10 md:px-4 py-4.5 md:py-3 rounded-lg md:rounded-xl transition-all duration-200 text-xs md:text-sm lg:text-base font-medium  md:w-full  ${
                 isActive
                   ? "text-black dark:text-white bg-zinc-700/50 md:bg-white dark:bg-zinc-700/50"
                   : "text-zinc-800 dark:text-zinc-800 hover:text-black dark:hover:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
